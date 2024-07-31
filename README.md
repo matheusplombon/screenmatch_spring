@@ -2,32 +2,32 @@
 
 Este projeto é uma extensão do projeto Screen Match, desenvolvido em Java com Spring para gerenciar filmes e séries, calcular o tempo total de visualização e fornecer recomendações com base nas classificações. Este projeto foi criado para praticar a lógica de programação e a utilização do framework Spring.
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![pgAdmin4](https://img.shields.io/badge/pgAdmin4-17A2B8?style=for-the-badge&logo=postgresql&logoColor=white)
+
+## Descrição
+
+O projeto **Screenmatch Spring** é uma aplicação Java construída usando o framework Spring Boot. Ela permite gerenciar um catálogo de filmes e séries e fornecer recomendações baseadas nas avaliações.
+
 ## Funcionalidades
 
-- Gerenciamento de filmes e séries
-- Cálculo do tempo total de visualização
-- Recomendações baseadas em classificações
-- Integração com a API OMDB para buscar dados de filmes
-- Serialização de dados de filmes em JSON utilizando a biblioteca Gson
-- Tratamento de exceções relacionadas à conversão de ano com a classe de exceção personalizada `ErroDeConversaoDeAnoException`
+- Cadastro de filmes e séries
+- Recomendações baseadas em avaliações
+- Integração com a API OMDB para obter dados dos filmes
+- Serialização de dados de filmes em JSON usando a biblioteca Gson
+- Tratamento de exceções personalizadas
+- Banco de dados PostgreSQL gerenciado com pgAdmin4
+- Função para traduzir sinopses utilizando a API do ChatGPT (atualmente fora do ar e o código está comentado)
 
 ## Tecnologias Utilizadas
 
 - Java
-- Spring Framework
 - Spring Boot
+- Gson
+- PostgreSQL
+- pgAdmin4
 - API OMDB
-- Gson (para serialização JSON)
+- API Chat GPT
 
-## Estrutura do Projeto
-
-- **calculos**: Contém classes para cálculos relacionados a filmes e séries.
-- **modelos**: Contém classes de modelo para filmes e séries.
-- **principal**: Contém classes principais para execução do projeto, incluindo a classe `PrincipalComBusca` para integração com a API OMDB.
-
-## Integração com a API OMDB
-
-A classe `PrincipalComBusca` é responsável por buscar dados de filmes na API OMDB. Para utilizar esta funcionalidade, é necessário configurar a chave da API no arquivo `application.properties`:
-
-```properties
-omdb.api.key=SUA_CHAVE_API
