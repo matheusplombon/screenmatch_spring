@@ -1,6 +1,6 @@
 # Screen Match Spring
 
-Este projeto é uma extensão do projeto Screen Match, desenvolvido em Java com Spring para gerenciar filmes e séries, Este projeto foi criado para praticar a lógica de programação e a utilização do framework Spring.
+Este projeto é uma extensão do projeto Screen Match, desenvolvido em Java com Spring para gerenciar filmes e séries. Este projeto foi criado para praticar a lógica de programação e a utilização do framework Spring.
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
@@ -41,3 +41,27 @@ O projeto **Screen Match Spring** é uma aplicação Java construída usando o f
 - pgAdmin4
 - API OMDB
 - API ChatGPT
+
+## Front-end
+
+O front-end da aplicação foi desenvolvido utilizando as seguintes tecnologias e ferramentas:
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+OBS: O front-end foi desenvolvido e fornecido pela Alura, sendo que eu fiz apenas a integração.
+
+# Resultados do projeto
+
+## Projeto na web
+![image](https://github.com/user-attachments/assets/edbef16e-a175-4efe-a5e1-831420b35974)
+- Estas são as séries que pesquisei na minha aplicação, foram salvas no banco de dados e listadas na aplicação web.
+  OBS: Não consegui fazer o upload da aplicação no Vercel, pois a aplicação Java deve estar em execução e precisaria ser hospedada juntamente com o banco de dados.
+
+## Banco de dados
+![image](https://github.com/user-attachments/assets/f65adcfb-675b-49b6-b6cb-1ae6f2a3b663)
+
+![image](https://github.com/user-attachments/assets/9cf3e70e-0027-4636-a100-e806fef2a555)
+
